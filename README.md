@@ -35,9 +35,10 @@ Através do curso, reforcei o que já sabia e aprendi coisas novas. Dentre os as
 
 ## HTML
 
-- Tags
+- Tags e atributos
 - Estrutura HTML
 - HTML semântico
+- Acessibilidade e SEO
 - HTML geral (listas, navegação, formulários, etc.)
 - Entre outros
 
