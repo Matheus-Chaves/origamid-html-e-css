@@ -1,0 +1,36 @@
+body {
+  font-family: "Arial";
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  color: white;
+}
+
+div {
+  background-color: #111;
+  border-radius: 4px;
+  padding: 25px;
+  margin: 30px 120px;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+span {
+  color: #febe01;
+}
+
+button {
+  color: #332200;
+  border-radius: 4px;
+  background-color: #febe01;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,116 @@
+:root {
+  --cinza: #f7f7f7;
+  --cinza-escuro: #c6c6c6;
+  --vermelho: #ee2211;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: var(--cinza);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 80px auto;
+}
+
+.menu {
+  text-align: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 40px 0;
+}
+
+.menu-items a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+main {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+}
+
+.linha {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: 20px;
+  width: 50px;
+  height: 3px;
+  background-color: var(--vermelho);
+}
+
+.descricao {
+  display: grid;
+  gap: 20px;
+  text-align: right;
+  padding: 40px;
+  background-color: white;
+  justify-items: end;
+  align-content: center;
+}
+
+.descricao > * {
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.descricao a {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: var(--vermelho);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.bikcraft {
+  max-width: 100%;
+}
+
+.vantagens-bikcraft {
+  display: grid;
+  align-self: center;
+  padding-right: 20px;
+  font-size: 64px;
+  text-align: right;
+  color: var(--cinza-escuro);
+}
+
+.vantagens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 50px;
+  background-color: white;
+  gap: 40px 20px;
+}
+
+.vantagens p {
+  padding-top: 10px;
+}
+
+strong {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 25px 0;
+}
