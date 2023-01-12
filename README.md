@@ -45,8 +45,11 @@ Através do curso, reforcei o que já sabia e aprendi coisas novas. Dentre os as
 ## CSS
 
 - Seletores CSS
-- Cores e Tipografia
+- Cores
 - Responsividade
 - Display Grid e Flex (flexbox)
 - Position
+- Tipografia
+- Unidades (px, rem, em, vh, etc.)
+- Pseudo Classes
 - Entre outros
