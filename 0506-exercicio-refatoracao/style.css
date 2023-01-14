@@ -34,7 +34,7 @@ nav ul {
 
 nav a {
   background: #fff;
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
   border-radius: 4px;
   color: #000;
   text-transform: uppercase;
@@ -57,6 +57,10 @@ h2,
 h3,
 ul {
   margin: 0px;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 p {
@@ -99,7 +103,7 @@ article {
 .botao {
   background: var(--vermelho);
   color: #fff;
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
   border-radius: 4px;
   text-transform: uppercase;
 }
