@@ -29,6 +29,11 @@ Para rodar o projeto localmente, basta abrir os arquivos com extensão `.html` e
 
   ![Imagem exercício posicionamento](/0309-exercicio-posicionamento/exercicio-posicionamento.png)
 
+- **[Aula 0506] - Refatoração**
+  A partir do exercício anterior, foi feita a refatoração da landing page desenvolvida. O site agora conta com um HTML semântico e mais acessível, além de novas estilizações, como o uso de pseudo classes e pseudo elementos, melhoria na tipografia e o uso de background image. É um exercício bem completo, abordando todos os tópicos aprendidos até o momento.
+
+  ![Imagem exercício refatoração](/0506-exercicio-refatoracao/exercicio-refatoracao.png)
+
 ## Aprendizados <a name = "aprendizados"></a>
 
 Através do curso, reforcei o que já sabia e aprendi coisas novas. Dentre os assuntos abordados, estão:
