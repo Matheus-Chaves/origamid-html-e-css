@@ -13,6 +13,7 @@ body {
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
+  font-size: 1rem;
 }
 
 img {
@@ -59,7 +60,7 @@ ul {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.3;
 }
 
