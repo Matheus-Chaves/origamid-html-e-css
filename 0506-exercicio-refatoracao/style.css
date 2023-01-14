@@ -53,19 +53,14 @@ a {
 p,
 h1,
 h2,
-h3 {
+h3,
+ul {
   margin: 0px;
 }
 
 p {
   font-size: 20px;
   line-height: 1.3;
-}
-
-.conteudo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
 }
 
 .introducao {
@@ -80,6 +75,7 @@ p {
 }
 
 main {
+  max-width: 1000px;
   position: relative;
 }
 
@@ -92,6 +88,11 @@ main::before {
   top: 30px;
   left: calc(50% - 30px);
   z-index: 1;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .botao {
@@ -135,6 +136,7 @@ main::before {
 
 .vantagens-item:hover {
   border-left: 4px solid var(--vermelho);
+  margin-left: -4px;
 }
 
 .vantagens-item p {
