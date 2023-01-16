@@ -212,7 +212,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   nav ul {
     font-size: 0.8rem;
   }
