@@ -164,11 +164,56 @@ footer {
 }
 
 @media (max-width: 800px) {
+  html {
+    font-size: 95%;
+  }
+
+  body {
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  nav ul {
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  /* Quebrar a linha funciona, mas deixa o layout ruim.
+   .subtitulo {
+    line-break: anywhere;
+  } */
+
+  .grid-vantagens {
+    grid-template-columns: 1fr;
+  }
+
   .subtitulo {
-    word-wrap: break-word;
+    text-align: center;
   }
 
   .vantagens-item img {
     width: max-content;
+  }
+}
+
+@media (max-width: 680px) {
+  article {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao,
+  .introducao h1 {
+    text-align: left;
+    justify-self: left;
+  }
+
+  main::before {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    font-size: 0.8rem;
   }
 }
