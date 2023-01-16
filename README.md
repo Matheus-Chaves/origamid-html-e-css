@@ -34,6 +34,11 @@ Para rodar o projeto localmente, basta abrir os arquivos com extensão `.html` e
 
   ![Imagem exercício refatoração](/0506-exercicio-refatoracao/exercicio-refatoracao.png)
 
+- **[Aula 0606] - Responsividade**
+  Com base no exercício anterior, a estilização foi alterada para ser responsiva, agora, adaptando-se a telas menores que a de um computador mantendo o entendimento do website.
+
+  ![Imagem exercício responsividade](/0606-exercicio-responsividade/exercicio-responsividade.png)
+
 ## Aprendizados <a name = "aprendizados"></a>
 
 Através do curso, reforcei o que já sabia e aprendi coisas novas. Dentre os assuntos abordados, estão:
