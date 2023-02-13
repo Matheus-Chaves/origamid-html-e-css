@@ -1,8 +1,23 @@
 :root {
   --cinza: #f7f7f7;
-  --cinza-escuro: #c6c6c6;
   --vermelho: #ee2211;
   --vermelho-escuro: #900;
+  --fundo: #fff;
+  --texto: #000;
+  --texto-subtitulo: rgba(0, 0, 0, 0.2);
+  --onda: url(./img/onda-clara.svg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cinza: #1a1a1a;
+    --vermelho: #b51a0c;
+    --vermelho-escuro: #900;
+    --fundo: #101010;
+    --texto: #eee;
+    --texto-subtitulo: rgba(255, 255, 255, 0.2);
+    --onda: url(./img/onda-escura.svg);
+  }
 }
 
 body {
@@ -16,7 +31,8 @@ body {
   font-size: 1rem;
 }
 
-img {
+img,
+svg {
   max-width: 100%;
   display: block;
   margin: 0 auto;
@@ -33,10 +49,10 @@ nav ul {
 }
 
 nav a {
-  background: #fff;
+  background: var(--fundo);
   padding: 0.9375rem 1.875rem;
   border-radius: 4px;
-  color: #000;
+  color: var(--texto);
   text-transform: uppercase;
 }
 
@@ -57,6 +73,7 @@ h2,
 h3,
 ul {
   margin: 0px;
+  color: var(--texto);
 }
 
 h1 {
@@ -69,7 +86,7 @@ p {
 }
 
 .introducao {
-  background: #fff;
+  background: var(--fundo);
   padding: 40px;
   text-align: right;
   position: relative;
@@ -116,15 +133,15 @@ article {
   display: grid;
   font-size: 64px;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.2);
-  background-image: url(./img/onda.svg);
+  color: var(--texto-subtitulo);
+  background-image: var(--onda);
   text-align: right;
   padding: 40px;
   align-self: center;
 }
 
 .vantagens {
-  background: #fff;
+  background: var(--fundo);
   padding: 40px;
 }
 
@@ -149,7 +166,7 @@ article {
 }
 
 footer {
-  background: #fff;
+  background: var(--fundo);
   width: 100%;
   text-align: center;
   padding: 40px;
