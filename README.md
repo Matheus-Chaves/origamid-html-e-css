@@ -39,6 +39,11 @@ Para rodar o projeto localmente, basta abrir os arquivos com extensão `.html` e
 
   ![Imagem exercício responsividade](/0606-exercicio-responsividade/exercicio-responsividade.png)
 
+- **[Aula 0905] - Modo Escuro**
+  Utilizando o mesmo site construído anteriormente, a partir da media query "prefers-color-scheme", foi criado um modo escuro para o site que é ativado de acordo com a preferência (modo escuro ou claro) do usuário. O objetivo foi treinar o uso dessa media query e o uso de variáveis CSS definidas através do :root da página, tornando o website mais fácil de dar manutenção.
+
+  ![Imagem exercício modo escuro](/0905-exercicio-modo-escuro/exercicio-modo-escuro.png)
+
 ## Aprendizados <a name = "aprendizados"></a>
 
 Através do curso, reforcei o que já sabia e aprendi coisas novas. Dentre os assuntos abordados, estão:
